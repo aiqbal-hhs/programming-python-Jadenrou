@@ -1,0 +1,36 @@
+name = input("What is your name? ")
+print("Cool")
+print("")
+
+food = input("What is your favourite food? ")
+print("Fair")
+print("")
+
+color = input("What is your favourite color? ")
+print("{}'s a pretty generic color, but respectable.".format(color))
+print("")
+
+variablevoid = input("Well {}, what is your honest political opinion on {} {}? ".format(name, color, food))
+print("Don't care didn't ask")
+print("")
+print("")
+
+print("Quiz time!")
+consent = input("Do you consent? Type y for yes or anything else for no: ")
+if consent == "y" :
+    print("Good")
+    print("")
+
+else:
+    print("You don't actually have a choice")
+    print("")
+
+begin = input("Lets begin! Type begin to begin: ")
+if begin == "begin" :
+    print(" ")
+
+else:
+    print("Are you illiterate, anyway first question...")
+    print("")
+
+print("i havent made the quiz yet but you see the epic use of format and input")
